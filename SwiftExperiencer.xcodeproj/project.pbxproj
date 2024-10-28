@@ -1,0 +1,1471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1247FC22C1C873E00A8173E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FC12C1C873E00A8173E /* DateExtension.swift */; };
+		C1247FC42C1C89DB00A8173E /* MoodEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FC32C1C89DB00A8173E /* MoodEntryView.swift */; };
+		C1247FCB2C1C997F00A8173E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15FA2D52C1AFD40000A103C /* WidgetKit.framework */; };
+		C1247FCC2C1C997F00A8173E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15FA2D72C1AFD40000A103C /* SwiftUI.framework */; };
+		C1247FCF2C1C997F00A8173E /* WatchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FCE2C1C997F00A8173E /* WatchWidget.swift */; };
+		C1247FD12C1C997F00A8173E /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FD02C1C997F00A8173E /* AppIntent.swift */; };
+		C1247FD32C1C998100A8173E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1247FD22C1C998100A8173E /* Assets.xcassets */; };
+		C1247FD72C1C998100A8173E /* WatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C1247FCA2C1C997F00A8173E /* WatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1247FDF2C202FEB00A8173E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FC12C1C873E00A8173E /* DateExtension.swift */; };
+		C1247FE22C20626000A8173E /* MoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FE12C20626000A8173E /* MoodDetailView.swift */; };
+		C1294E9A2C206769000FCFA4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1294E992C206769000FCFA4 /* DataController.swift */; };
+		C1294E9B2C206769000FCFA4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1294E992C206769000FCFA4 /* DataController.swift */; };
+		C15FA2E92C1C1A3D000A103C /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2E82C1C1A3D000A103C /* MoodEntry.swift */; };
+		C15FA2EA2C1C1A3D000A103C /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2E82C1C1A3D000A103C /* MoodEntry.swift */; };
+		C15FA2EC2C1C1A86000A103C /* MoodScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2EB2C1C1A86000A103C /* MoodScale.swift */; };
+		C15FA2ED2C1C1A86000A103C /* MoodScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2EB2C1C1A86000A103C /* MoodScale.swift */; };
+		C15FA2EF2C1C2E2D000A103C /* HeartRateMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2EE2C1C2E2D000A103C /* HeartRateMetaData.swift */; };
+		C15FA2F02C1C2E2D000A103C /* HeartRateMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2EE2C1C2E2D000A103C /* HeartRateMetaData.swift */; };
+		C19A17122C23409400D421BC /* CLLocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A17112C23409400D421BC /* CLLocationExtension.swift */; };
+		C19A17132C23409400D421BC /* CLLocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A17112C23409400D421BC /* CLLocationExtension.swift */; };
+		C19AC7E82C0485B70003A99A /* SwiftExperiencerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC7E72C0485B70003A99A /* SwiftExperiencerApp.swift */; };
+		C19AC7EA2C0485B70003A99A /* MoodEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC7E92C0485B70003A99A /* MoodEntryListView.swift */; };
+		C19AC7EC2C0485B80003A99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19AC7EB2C0485B80003A99A /* Assets.xcassets */; };
+		C19AC7EF2C0485B80003A99A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19AC7EE2C0485B80003A99A /* Preview Assets.xcassets */; };
+		C19AC7F92C0485B80003A99A /* SwiftExperiencerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC7F82C0485B80003A99A /* SwiftExperiencerTests.swift */; };
+		C19AC8032C0485B80003A99A /* SwiftExperiencerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC8022C0485B80003A99A /* SwiftExperiencerUITests.swift */; };
+		C19AC8052C0485B80003A99A /* SwiftExperiencerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC8042C0485B80003A99A /* SwiftExperiencerUITestsLaunchTests.swift */; };
+		C19AC80B2C0485B80003A99A /* SwiftExperiencer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C19AC80A2C0485B80003A99A /* SwiftExperiencer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C19AC8102C0485B80003A99A /* SwiftExperiencerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC80F2C0485B80003A99A /* SwiftExperiencerApp.swift */; };
+		C19AC8122C0485B80003A99A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC8112C0485B80003A99A /* MainView.swift */; };
+		C19AC8142C0485B90003A99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19AC8132C0485B90003A99A /* Assets.xcassets */; };
+		C19AC8172C0485B90003A99A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19AC8162C0485B90003A99A /* Preview Assets.xcassets */; };
+		C19AC8212C0485B90003A99A /* SwiftExperiencer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC8202C0485B90003A99A /* SwiftExperiencer_Watch_AppTests.swift */; };
+		C19AC82B2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC82A2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITests.swift */; };
+		C19AC82D2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC82C2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITestsLaunchTests.swift */; };
+		C19AC8452C0486B40003A99A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C19AC8442C0486B40003A99A /* Alamofire */; };
+		C19AC8472C0486D40003A99A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC8462C0486D40003A99A /* LocationManager.swift */; };
+		C19AC84D2C09D40A0003A99A /* SwiftHealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19AC84C2C09D40A0003A99A /* SwiftHealthKit.swift */; };
+		C1AAEED32C160A03007BB89E /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAEED22C160A02007BB89E /* TimeIntervalExtension.swift */; };
+		C1E00C972C4FAB9A006F62A7 /* DayPartFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00C962C4FAB9A006F62A7 /* DayPartFilter.swift */; };
+		C1E00C992C4FABCD006F62A7 /* VisualizationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00C982C4FABCD006F62A7 /* VisualizationType.swift */; };
+		C1E00C9B2C4FACD2006F62A7 /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00C9A2C4FACD2006F62A7 /* DayDetailView.swift */; };
+		C1E00C9E2C4FAD18006F62A7 /* MoodEntriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00C9D2C4FAD18006F62A7 /* MoodEntriesViewModel.swift */; };
+		C1E00CA02C53843E006F62A7 /* CLPlacemarkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00C9F2C53843E006F62A7 /* CLPlacemarkExtension.swift */; };
+		C1E00CA22C53905C006F62A7 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00CA12C53905C006F62A7 /* DateFormatterExtension.swift */; };
+		C1E00CA32C5390C3006F62A7 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00CA12C53905C006F62A7 /* DateFormatterExtension.swift */; };
+		C1E00CA62C6E10E4006F62A7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C1E00CA52C6E10E4006F62A7 /* Alamofire */; };
+		C1E00CA92C6E2685006F62A7 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00CA82C6E2685006F62A7 /* ServerResponse.swift */; };
+		C1E00CAB2C7F3C2F006F62A7 /* MoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E00CAA2C7F3C2F006F62A7 /* MoodDayView.swift */; };
+		C1E8958C2C25B1EB0038D223 /* ContentViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8958B2C25B1EB0038D223 /* ContentViewB.swift */; };
+		C1F31EDC2C22E00800E7A260 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2E82C1C1A3D000A103C /* MoodEntry.swift */; };
+		C1F31EDD2C22E00B00E7A260 /* HeartRateMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15FA2EE2C1C2E2D000A103C /* HeartRateMetaData.swift */; };
+		C1F31EDF2C22EE2C00E7A260 /* MoodOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F31EDE2C22EE2C00E7A260 /* MoodOverviewView.swift */; };
+		C1F31EE02C2308B100E7A260 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1247FC12C1C873E00A8173E /* DateExtension.swift */; };
+		C1FA14122C2324E800A7C075 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA14112C2324E800A7C075 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1247FD52C1C998100A8173E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1247FC92C1C997F00A8173E;
+			remoteInfo = WatchWidgetExtension;
+		};
+		C19AC7F52C0485B80003A99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19AC7E32C0485B70003A99A;
+			remoteInfo = SwiftExperiencer;
+		};
+		C19AC7FF2C0485B80003A99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19AC7E32C0485B70003A99A;
+			remoteInfo = SwiftExperiencer;
+		};
+		C19AC80C2C0485B80003A99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19AC8092C0485B80003A99A;
+			remoteInfo = "SwiftExperiencer Watch App";
+		};
+		C19AC81D2C0485B90003A99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19AC8092C0485B80003A99A;
+			remoteInfo = "SwiftExperiencer Watch App";
+		};
+		C19AC8272C0485B90003A99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19AC7DC2C0485B70003A99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19AC8092C0485B80003A99A;
+			remoteInfo = "SwiftExperiencer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C15FA2E72C1AFD42000A103C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1247FD72C1C998100A8173E /* WatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8332C0485B90003A99A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C19AC80B2C0485B80003A99A /* SwiftExperiencer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1247FC12C1C873E00A8173E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C1247FC32C1C89DB00A8173E /* MoodEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryView.swift; sourceTree = "<group>"; };
+		C1247FCA2C1C997F00A8173E /* WatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1247FCE2C1C997F00A8173E /* WatchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWidget.swift; sourceTree = "<group>"; };
+		C1247FD02C1C997F00A8173E /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		C1247FD22C1C998100A8173E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1247FD42C1C998100A8173E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1247FE12C20626000A8173E /* MoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailView.swift; sourceTree = "<group>"; };
+		C1294E992C206769000FCFA4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C15FA2D52C1AFD40000A103C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C15FA2D72C1AFD40000A103C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C15FA2E82C1C1A3D000A103C /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		C15FA2EB2C1C1A86000A103C /* MoodScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScale.swift; sourceTree = "<group>"; };
+		C15FA2EE2C1C2E2D000A103C /* HeartRateMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMetaData.swift; sourceTree = "<group>"; };
+		C19A17112C23409400D421BC /* CLLocationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationExtension.swift; sourceTree = "<group>"; };
+		C19AC7E42C0485B70003A99A /* SwiftExperiencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExperiencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC7E72C0485B70003A99A /* SwiftExperiencerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencerApp.swift; sourceTree = "<group>"; };
+		C19AC7E92C0485B70003A99A /* MoodEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntryListView.swift; sourceTree = "<group>"; };
+		C19AC7EB2C0485B80003A99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19AC7EE2C0485B80003A99A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C19AC7F42C0485B80003A99A /* SwiftExperiencerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExperiencerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC7F82C0485B80003A99A /* SwiftExperiencerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencerTests.swift; sourceTree = "<group>"; };
+		C19AC7FE2C0485B80003A99A /* SwiftExperiencerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExperiencerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC8022C0485B80003A99A /* SwiftExperiencerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencerUITests.swift; sourceTree = "<group>"; };
+		C19AC8042C0485B80003A99A /* SwiftExperiencerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C19AC80A2C0485B80003A99A /* SwiftExperiencer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftExperiencer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC80F2C0485B80003A99A /* SwiftExperiencerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencerApp.swift; sourceTree = "<group>"; };
+		C19AC8112C0485B80003A99A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C19AC8132C0485B90003A99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19AC8162C0485B90003A99A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C19AC81C2C0485B90003A99A /* SwiftExperiencer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftExperiencer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC8202C0485B90003A99A /* SwiftExperiencer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		C19AC8262C0485B90003A99A /* SwiftExperiencer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftExperiencer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19AC82A2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		C19AC82C2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExperiencer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C19AC8462C0486D40003A99A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C19AC8482C04C42C0003A99A /* SwiftExperiencer Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftExperiencer Watch App.entitlements"; sourceTree = "<group>"; };
+		C19AC8492C070D270003A99A /* SwiftExperiencer-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftExperiencer-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C19AC84A2C09C7770003A99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C19AC84B2C09C7880003A99A /* SwiftExperiencer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftExperiencer.entitlements; sourceTree = "<group>"; };
+		C19AC84C2C09D40A0003A99A /* SwiftHealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHealthKit.swift; sourceTree = "<group>"; };
+		C1AAEED22C160A02007BB89E /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
+		C1E00C962C4FAB9A006F62A7 /* DayPartFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPartFilter.swift; sourceTree = "<group>"; };
+		C1E00C982C4FABCD006F62A7 /* VisualizationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizationType.swift; sourceTree = "<group>"; };
+		C1E00C9A2C4FACD2006F62A7 /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		C1E00C9D2C4FAD18006F62A7 /* MoodEntriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntriesViewModel.swift; sourceTree = "<group>"; };
+		C1E00C9F2C53843E006F62A7 /* CLPlacemarkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemarkExtension.swift; sourceTree = "<group>"; };
+		C1E00CA12C53905C006F62A7 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		C1E00CA82C6E2685006F62A7 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		C1E00CAA2C7F3C2F006F62A7 /* MoodDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDayView.swift; sourceTree = "<group>"; };
+		C1E8958B2C25B1EB0038D223 /* ContentViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewB.swift; sourceTree = "<group>"; };
+		C1F31EDB2C22DEC100E7A260 /* WatchWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchWidgetExtension.entitlements; sourceTree = "<group>"; };
+		C1F31EDE2C22EE2C00E7A260 /* MoodOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodOverviewView.swift; sourceTree = "<group>"; };
+		C1FA14112C2324E800A7C075 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1247FC72C1C997F00A8173E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1247FCC2C1C997F00A8173E /* SwiftUI.framework in Frameworks */,
+				C1247FCB2C1C997F00A8173E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7E12C0485B70003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E00CA62C6E10E4006F62A7 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7F12C0485B80003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7FB2C0485B80003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8072C0485B80003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC8452C0486B40003A99A /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8192C0485B90003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8232C0485B90003A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1247FC52C1C8C3D00A8173E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1247FC32C1C89DB00A8173E /* MoodEntryView.swift */,
+				C19AC8112C0485B80003A99A /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1247FCD2C1C997F00A8173E /* WatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C1247FCE2C1C997F00A8173E /* WatchWidget.swift */,
+				C1247FD02C1C997F00A8173E /* AppIntent.swift */,
+				C1247FD22C1C998100A8173E /* Assets.xcassets */,
+				C1247FD42C1C998100A8173E /* Info.plist */,
+			);
+			path = WatchWidget;
+			sourceTree = "<group>";
+		};
+		C1247FDE2C202FCB00A8173E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1247FC12C1C873E00A8173E /* DateExtension.swift */,
+				C19A17112C23409400D421BC /* CLLocationExtension.swift */,
+				C1E00CA12C53905C006F62A7 /* DateFormatterExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C1247FE02C20624500A8173E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1E00CA42C539C14006F62A7 /* Legacy */,
+				C1247FE12C20626000A8173E /* MoodDetailView.swift */,
+				C1F31EDE2C22EE2C00E7A260 /* MoodOverviewView.swift */,
+				C1E00C9A2C4FACD2006F62A7 /* DayDetailView.swift */,
+				C1E00CAA2C7F3C2F006F62A7 /* MoodDayView.swift */,
+				C19AC7E92C0485B70003A99A /* MoodEntryListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C15FA2CD2C19B1D6000A103C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAEED22C160A02007BB89E /* TimeIntervalExtension.swift */,
+				C1E00C9F2C53843E006F62A7 /* CLPlacemarkExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C15FA2CE2C19B1E8000A103C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC8462C0486D40003A99A /* LocationManager.swift */,
+				C19AC84C2C09D40A0003A99A /* SwiftHealthKit.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C15FA2D42C1AFD40000A103C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15FA2D52C1AFD40000A103C /* WidgetKit.framework */,
+				C15FA2D72C1AFD40000A103C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19AC7DB2C0485B70003A99A = {
+			isa = PBXGroup;
+			children = (
+				C1F31EDB2C22DEC100E7A260 /* WatchWidgetExtension.entitlements */,
+				C1AAEED62C17000C007BB89E /* Shared */,
+				C19AC7E62C0485B70003A99A /* SwiftExperiencer */,
+				C19AC7F72C0485B80003A99A /* SwiftExperiencerTests */,
+				C19AC8012C0485B80003A99A /* SwiftExperiencerUITests */,
+				C19AC80E2C0485B80003A99A /* SwiftExperiencer Watch App */,
+				C19AC81F2C0485B90003A99A /* SwiftExperiencer Watch AppTests */,
+				C19AC8292C0485B90003A99A /* SwiftExperiencer Watch AppUITests */,
+				C1247FCD2C1C997F00A8173E /* WatchWidget */,
+				C15FA2D42C1AFD40000A103C /* Frameworks */,
+				C19AC7E52C0485B70003A99A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19AC7E52C0485B70003A99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC7E42C0485B70003A99A /* SwiftExperiencer.app */,
+				C19AC7F42C0485B80003A99A /* SwiftExperiencerTests.xctest */,
+				C19AC7FE2C0485B80003A99A /* SwiftExperiencerUITests.xctest */,
+				C19AC80A2C0485B80003A99A /* SwiftExperiencer Watch App.app */,
+				C19AC81C2C0485B90003A99A /* SwiftExperiencer Watch AppTests.xctest */,
+				C19AC8262C0485B90003A99A /* SwiftExperiencer Watch AppUITests.xctest */,
+				C1247FCA2C1C997F00A8173E /* WatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19AC7E62C0485B70003A99A /* SwiftExperiencer */ = {
+			isa = PBXGroup;
+			children = (
+				C1E00CA72C6E2670006F62A7 /* Decodables */,
+				C1E00C9C2C4FACFF006F62A7 /* ViewModels */,
+				C1E00C952C4FAB7D006F62A7 /* Filters */,
+				C1247FE02C20624500A8173E /* Views */,
+				C19AC84B2C09C7880003A99A /* SwiftExperiencer.entitlements */,
+				C19AC84A2C09C7770003A99A /* Info.plist */,
+				C19AC7E72C0485B70003A99A /* SwiftExperiencerApp.swift */,
+				C19AC7EB2C0485B80003A99A /* Assets.xcassets */,
+				C19AC7ED2C0485B80003A99A /* Preview Content */,
+			);
+			path = SwiftExperiencer;
+			sourceTree = "<group>";
+		};
+		C19AC7ED2C0485B80003A99A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC7EE2C0485B80003A99A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C19AC7F72C0485B80003A99A /* SwiftExperiencerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC7F82C0485B80003A99A /* SwiftExperiencerTests.swift */,
+			);
+			path = SwiftExperiencerTests;
+			sourceTree = "<group>";
+		};
+		C19AC8012C0485B80003A99A /* SwiftExperiencerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC8022C0485B80003A99A /* SwiftExperiencerUITests.swift */,
+				C19AC8042C0485B80003A99A /* SwiftExperiencerUITestsLaunchTests.swift */,
+			);
+			path = SwiftExperiencerUITests;
+			sourceTree = "<group>";
+		};
+		C19AC80E2C0485B80003A99A /* SwiftExperiencer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C1247FC52C1C8C3D00A8173E /* Views */,
+				C15FA2CE2C19B1E8000A103C /* Managers */,
+				C15FA2CD2C19B1D6000A103C /* Extensions */,
+				C19AC8492C070D270003A99A /* SwiftExperiencer-Watch-App-Info.plist */,
+				C19AC8482C04C42C0003A99A /* SwiftExperiencer Watch App.entitlements */,
+				C19AC80F2C0485B80003A99A /* SwiftExperiencerApp.swift */,
+				C19AC8132C0485B90003A99A /* Assets.xcassets */,
+				C19AC8152C0485B90003A99A /* Preview Content */,
+			);
+			path = "SwiftExperiencer Watch App";
+			sourceTree = "<group>";
+		};
+		C19AC8152C0485B90003A99A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC8162C0485B90003A99A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C19AC81F2C0485B90003A99A /* SwiftExperiencer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC8202C0485B90003A99A /* SwiftExperiencer_Watch_AppTests.swift */,
+			);
+			path = "SwiftExperiencer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		C19AC8292C0485B90003A99A /* SwiftExperiencer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19AC82A2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITests.swift */,
+				C19AC82C2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SwiftExperiencer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		C1AAEED62C17000C007BB89E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C1F31EDA2C22CF7900E7A260 /* Models */,
+				C1247FDE2C202FCB00A8173E /* Extensions */,
+				C1294E992C206769000FCFA4 /* DataController.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C1E00C952C4FAB7D006F62A7 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				C1E00C962C4FAB9A006F62A7 /* DayPartFilter.swift */,
+				C1E00C982C4FABCD006F62A7 /* VisualizationType.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		C1E00C9C2C4FACFF006F62A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C1E00C9D2C4FAD18006F62A7 /* MoodEntriesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C1E00CA42C539C14006F62A7 /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				C1E8958B2C25B1EB0038D223 /* ContentViewB.swift */,
+				C1FA14112C2324E800A7C075 /* MainView.swift */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+		C1E00CA72C6E2670006F62A7 /* Decodables */ = {
+			isa = PBXGroup;
+			children = (
+				C1E00CA82C6E2685006F62A7 /* ServerResponse.swift */,
+			);
+			path = Decodables;
+			sourceTree = "<group>";
+		};
+		C1F31EDA2C22CF7900E7A260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C15FA2E82C1C1A3D000A103C /* MoodEntry.swift */,
+				C15FA2EB2C1C1A86000A103C /* MoodScale.swift */,
+				C15FA2EE2C1C2E2D000A103C /* HeartRateMetaData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1247FC92C1C997F00A8173E /* WatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1247FD82C1C998100A8173E /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */;
+			buildPhases = (
+				C1247FC62C1C997F00A8173E /* Sources */,
+				C1247FC72C1C997F00A8173E /* Frameworks */,
+				C1247FC82C1C997F00A8173E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchWidgetExtension;
+			productName = WatchWidgetExtension;
+			productReference = C1247FCA2C1C997F00A8173E /* WatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C19AC7E32C0485B70003A99A /* SwiftExperiencer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC8342C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer" */;
+			buildPhases = (
+				C19AC7E02C0485B70003A99A /* Sources */,
+				C19AC7E12C0485B70003A99A /* Frameworks */,
+				C19AC7E22C0485B70003A99A /* Resources */,
+				C19AC8332C0485B90003A99A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19AC80D2C0485B80003A99A /* PBXTargetDependency */,
+			);
+			name = SwiftExperiencer;
+			packageProductDependencies = (
+				C1E00CA52C6E10E4006F62A7 /* Alamofire */,
+			);
+			productName = SwiftExperiencer;
+			productReference = C19AC7E42C0485B70003A99A /* SwiftExperiencer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19AC7F32C0485B80003A99A /* SwiftExperiencerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC8372C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencerTests" */;
+			buildPhases = (
+				C19AC7F02C0485B80003A99A /* Sources */,
+				C19AC7F12C0485B80003A99A /* Frameworks */,
+				C19AC7F22C0485B80003A99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19AC7F62C0485B80003A99A /* PBXTargetDependency */,
+			);
+			name = SwiftExperiencerTests;
+			productName = SwiftExperiencerTests;
+			productReference = C19AC7F42C0485B80003A99A /* SwiftExperiencerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19AC7FD2C0485B80003A99A /* SwiftExperiencerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC83A2C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencerUITests" */;
+			buildPhases = (
+				C19AC7FA2C0485B80003A99A /* Sources */,
+				C19AC7FB2C0485B80003A99A /* Frameworks */,
+				C19AC7FC2C0485B80003A99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19AC8002C0485B80003A99A /* PBXTargetDependency */,
+			);
+			name = SwiftExperiencerUITests;
+			productName = SwiftExperiencerUITests;
+			productReference = C19AC7FE2C0485B80003A99A /* SwiftExperiencerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C19AC8092C0485B80003A99A /* SwiftExperiencer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC8302C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch App" */;
+			buildPhases = (
+				C19AC8062C0485B80003A99A /* Sources */,
+				C19AC8072C0485B80003A99A /* Frameworks */,
+				C19AC8082C0485B80003A99A /* Resources */,
+				C15FA2E72C1AFD42000A103C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1247FD62C1C998100A8173E /* PBXTargetDependency */,
+			);
+			name = "SwiftExperiencer Watch App";
+			packageProductDependencies = (
+				C19AC8442C0486B40003A99A /* Alamofire */,
+			);
+			productName = "SwiftExperiencer Watch App";
+			productReference = C19AC80A2C0485B80003A99A /* SwiftExperiencer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19AC81B2C0485B90003A99A /* SwiftExperiencer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC83D2C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch AppTests" */;
+			buildPhases = (
+				C19AC8182C0485B90003A99A /* Sources */,
+				C19AC8192C0485B90003A99A /* Frameworks */,
+				C19AC81A2C0485B90003A99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19AC81E2C0485B90003A99A /* PBXTargetDependency */,
+			);
+			name = "SwiftExperiencer Watch AppTests";
+			productName = "SwiftExperiencer Watch AppTests";
+			productReference = C19AC81C2C0485B90003A99A /* SwiftExperiencer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19AC8252C0485B90003A99A /* SwiftExperiencer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AC8402C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch AppUITests" */;
+			buildPhases = (
+				C19AC8222C0485B90003A99A /* Sources */,
+				C19AC8232C0485B90003A99A /* Frameworks */,
+				C19AC8242C0485B90003A99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19AC8282C0485B90003A99A /* PBXTargetDependency */,
+			);
+			name = "SwiftExperiencer Watch AppUITests";
+			productName = "SwiftExperiencer Watch AppUITests";
+			productReference = C19AC8262C0485B90003A99A /* SwiftExperiencer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19AC7DC2C0485B70003A99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C1247FC92C1C997F00A8173E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C19AC7E32C0485B70003A99A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C19AC7F32C0485B80003A99A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19AC7E32C0485B70003A99A;
+					};
+					C19AC7FD2C0485B80003A99A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19AC7E32C0485B70003A99A;
+					};
+					C19AC8092C0485B80003A99A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C19AC81B2C0485B90003A99A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19AC8092C0485B80003A99A;
+					};
+					C19AC8252C0485B90003A99A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C19AC8092C0485B80003A99A;
+					};
+				};
+			};
+			buildConfigurationList = C19AC7DF2C0485B70003A99A /* Build configuration list for PBXProject "SwiftExperiencer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19AC7DB2C0485B70003A99A;
+			packageReferences = (
+				C19AC8432C0486B40003A99A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C19AC7E52C0485B70003A99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19AC7E32C0485B70003A99A /* SwiftExperiencer */,
+				C19AC7F32C0485B80003A99A /* SwiftExperiencerTests */,
+				C19AC7FD2C0485B80003A99A /* SwiftExperiencerUITests */,
+				C19AC8092C0485B80003A99A /* SwiftExperiencer Watch App */,
+				C19AC81B2C0485B90003A99A /* SwiftExperiencer Watch AppTests */,
+				C19AC8252C0485B90003A99A /* SwiftExperiencer Watch AppUITests */,
+				C1247FC92C1C997F00A8173E /* WatchWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1247FC82C1C997F00A8173E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1247FD32C1C998100A8173E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7E22C0485B70003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC7EF2C0485B80003A99A /* Preview Assets.xcassets in Resources */,
+				C19AC7EC2C0485B80003A99A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7F22C0485B80003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7FC2C0485B80003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8082C0485B80003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC8172C0485B90003A99A /* Preview Assets.xcassets in Resources */,
+				C19AC8142C0485B90003A99A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC81A2C0485B90003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8242C0485B90003A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1247FC62C1C997F00A8173E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1247FCF2C1C997F00A8173E /* WatchWidget.swift in Sources */,
+				C1F31EE02C2308B100E7A260 /* DateExtension.swift in Sources */,
+				C1247FD12C1C997F00A8173E /* AppIntent.swift in Sources */,
+				C1F31EDC2C22E00800E7A260 /* MoodEntry.swift in Sources */,
+				C1F31EDD2C22E00B00E7A260 /* HeartRateMetaData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7E02C0485B70003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC7EA2C0485B70003A99A /* MoodEntryListView.swift in Sources */,
+				C19A17122C23409400D421BC /* CLLocationExtension.swift in Sources */,
+				C1E00CA32C5390C3006F62A7 /* DateFormatterExtension.swift in Sources */,
+				C1F31EDF2C22EE2C00E7A260 /* MoodOverviewView.swift in Sources */,
+				C1294E9A2C206769000FCFA4 /* DataController.swift in Sources */,
+				C1247FDF2C202FEB00A8173E /* DateExtension.swift in Sources */,
+				C1E8958C2C25B1EB0038D223 /* ContentViewB.swift in Sources */,
+				C1E00C972C4FAB9A006F62A7 /* DayPartFilter.swift in Sources */,
+				C1E00C9E2C4FAD18006F62A7 /* MoodEntriesViewModel.swift in Sources */,
+				C15FA2EC2C1C1A86000A103C /* MoodScale.swift in Sources */,
+				C1E00C992C4FABCD006F62A7 /* VisualizationType.swift in Sources */,
+				C1E00C9B2C4FACD2006F62A7 /* DayDetailView.swift in Sources */,
+				C19AC7E82C0485B70003A99A /* SwiftExperiencerApp.swift in Sources */,
+				C1FA14122C2324E800A7C075 /* MainView.swift in Sources */,
+				C1E00CA92C6E2685006F62A7 /* ServerResponse.swift in Sources */,
+				C15FA2EF2C1C2E2D000A103C /* HeartRateMetaData.swift in Sources */,
+				C1247FE22C20626000A8173E /* MoodDetailView.swift in Sources */,
+				C15FA2E92C1C1A3D000A103C /* MoodEntry.swift in Sources */,
+				C1E00CAB2C7F3C2F006F62A7 /* MoodDayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7F02C0485B80003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC7F92C0485B80003A99A /* SwiftExperiencerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC7FA2C0485B80003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC8032C0485B80003A99A /* SwiftExperiencerUITests.swift in Sources */,
+				C19AC8052C0485B80003A99A /* SwiftExperiencerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8062C0485B80003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC8122C0485B80003A99A /* MainView.swift in Sources */,
+				C19A17132C23409400D421BC /* CLLocationExtension.swift in Sources */,
+				C1E00CA22C53905C006F62A7 /* DateFormatterExtension.swift in Sources */,
+				C1247FC22C1C873E00A8173E /* DateExtension.swift in Sources */,
+				C1AAEED32C160A03007BB89E /* TimeIntervalExtension.swift in Sources */,
+				C15FA2F02C1C2E2D000A103C /* HeartRateMetaData.swift in Sources */,
+				C1247FC42C1C89DB00A8173E /* MoodEntryView.swift in Sources */,
+				C1E00CA02C53843E006F62A7 /* CLPlacemarkExtension.swift in Sources */,
+				C15FA2EA2C1C1A3D000A103C /* MoodEntry.swift in Sources */,
+				C1294E9B2C206769000FCFA4 /* DataController.swift in Sources */,
+				C19AC8102C0485B80003A99A /* SwiftExperiencerApp.swift in Sources */,
+				C15FA2ED2C1C1A86000A103C /* MoodScale.swift in Sources */,
+				C19AC84D2C09D40A0003A99A /* SwiftHealthKit.swift in Sources */,
+				C19AC8472C0486D40003A99A /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8182C0485B90003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC8212C0485B90003A99A /* SwiftExperiencer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19AC8222C0485B90003A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19AC82B2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITests.swift in Sources */,
+				C19AC82D2C0485B90003A99A /* SwiftExperiencer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1247FD62C1C998100A8173E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1247FC92C1C997F00A8173E /* WatchWidgetExtension */;
+			targetProxy = C1247FD52C1C998100A8173E /* PBXContainerItemProxy */;
+		};
+		C19AC7F62C0485B80003A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19AC7E32C0485B70003A99A /* SwiftExperiencer */;
+			targetProxy = C19AC7F52C0485B80003A99A /* PBXContainerItemProxy */;
+		};
+		C19AC8002C0485B80003A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19AC7E32C0485B70003A99A /* SwiftExperiencer */;
+			targetProxy = C19AC7FF2C0485B80003A99A /* PBXContainerItemProxy */;
+		};
+		C19AC80D2C0485B80003A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19AC8092C0485B80003A99A /* SwiftExperiencer Watch App */;
+			targetProxy = C19AC80C2C0485B80003A99A /* PBXContainerItemProxy */;
+		};
+		C19AC81E2C0485B90003A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19AC8092C0485B80003A99A /* SwiftExperiencer Watch App */;
+			targetProxy = C19AC81D2C0485B90003A99A /* PBXContainerItemProxy */;
+		};
+		C19AC8282C0485B90003A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19AC8092C0485B80003A99A /* SwiftExperiencer Watch App */;
+			targetProxy = C19AC8272C0485B90003A99A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1247FD92C1C998100A8173E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer.watchkitapp.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C1247FDA2C1C998100A8173E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer.watchkitapp.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C19AC82E2C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19AC82F2C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C19AC8312C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftExperiencer Watch App/SwiftExperiencer Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftExperiencer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftExperiencer-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftExperiencer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jg.SwiftExperiencer;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19AC8322C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftExperiencer Watch App/SwiftExperiencer Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftExperiencer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftExperiencer-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftExperiencer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Experiencer needs access to work properly";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jg.SwiftExperiencer;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C19AC8352C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftExperiencer/SwiftExperiencer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftExperiencer/Preview Content\"";
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftExperiencer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftExperiencer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Experiencer needs access to work properly.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Experiencer needs access to these values to work properly.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19AC8362C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftExperiencer/SwiftExperiencer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftExperiencer/Preview Content\"";
+				DEVELOPMENT_TEAM = KS9WF5DV52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftExperiencer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftExperiencer;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Experiencer needs access to work properly.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Experiencer needs access to these values to work properly.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19AC8382C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExperiencer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftExperiencer";
+			};
+			name = Debug;
+		};
+		C19AC8392C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExperiencer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftExperiencer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19AC83B2C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftExperiencer;
+			};
+			name = Debug;
+		};
+		C19AC83C2C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jg.SwiftExperiencerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftExperiencer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19AC83E2C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jg.SwiftExperiencer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExperiencer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftExperiencer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19AC83F2C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jg.SwiftExperiencer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExperiencer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftExperiencer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		C19AC8412C0485B90003A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jg.SwiftExperiencer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SwiftExperiencer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C19AC8422C0485B90003A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jg.SwiftExperiencer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SwiftExperiencer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1247FD82C1C998100A8173E /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1247FD92C1C998100A8173E /* Debug */,
+				C1247FDA2C1C998100A8173E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC7DF2C0485B70003A99A /* Build configuration list for PBXProject "SwiftExperiencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC82E2C0485B90003A99A /* Debug */,
+				C19AC82F2C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC8302C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC8312C0485B90003A99A /* Debug */,
+				C19AC8322C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC8342C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC8352C0485B90003A99A /* Debug */,
+				C19AC8362C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC8372C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC8382C0485B90003A99A /* Debug */,
+				C19AC8392C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC83A2C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC83B2C0485B90003A99A /* Debug */,
+				C19AC83C2C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC83D2C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC83E2C0485B90003A99A /* Debug */,
+				C19AC83F2C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AC8402C0485B90003A99A /* Build configuration list for PBXNativeTarget "SwiftExperiencer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19AC8412C0485B90003A99A /* Debug */,
+				C19AC8422C0485B90003A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C19AC8432C0486B40003A99A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C19AC8442C0486B40003A99A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19AC8432C0486B40003A99A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C1E00CA52C6E10E4006F62A7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C19AC8432C0486B40003A99A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C19AC7DC2C0485B70003A99A /* Project object */;
+}

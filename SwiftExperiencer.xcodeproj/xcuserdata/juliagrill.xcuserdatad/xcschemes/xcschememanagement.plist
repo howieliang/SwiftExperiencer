@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SwiftExperiencer Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SwiftExperiencer.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>WatchWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C19AC7E32C0485B70003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C19AC7F32C0485B80003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C19AC7FD2C0485B80003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C19AC8092C0485B80003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C19AC81B2C0485B90003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C19AC8252C0485B90003A99A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
